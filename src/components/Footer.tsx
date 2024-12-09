@@ -29,7 +29,7 @@ export default function Footer() {
             />
             <button
               type="submit"
-              className="py-2 px-4 text-white font-bold bg-[#FB2E86] rounded-md hover:bg-[#fb2e87be] transition"
+              className="py-2 md:text-base text-sm md:px-4 px-2 text-white font-bold bg-[#FB2E86] rounded-sm hover:bg-[#fb2e87be] transition"
             >
               Sign Up
             </button>
