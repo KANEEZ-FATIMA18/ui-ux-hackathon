@@ -59,8 +59,8 @@ const TrendingProducts = () => {
               {/* Product Info */}
               <h3 className="text-gray-800 text-[16px] font-bold mb-2">{product.name}</h3>
               <div className="text-gray-500 space-x-3">
-                <span className="text-blue-900">${product.price}</span>
-                <span className="line-through mr-2">${product.originalPrice}</span>
+                <span className="text-blue-900">${product.price} </span>
+                <span className="line-through mr-2">${product.originalPrice} </span>
               </div>
             </div>
           ))}
