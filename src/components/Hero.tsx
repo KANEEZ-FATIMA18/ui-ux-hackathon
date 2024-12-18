@@ -17,7 +17,7 @@ const slides = [
     description:
       "Discover the latest modern furniture trends to elevate your living space.",
     buttonText: "Shop Now",
-    chairImage: "/image.png",
+    chairImage: "/sofa1.png",
     lampImage: "/lamp.png",
   },
   {
