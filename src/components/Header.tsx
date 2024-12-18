@@ -71,7 +71,7 @@ function Header() {
 
             {/* Toggle Button for mobile */}
             <button
-              className="text-black block md:hidden text-3xl z-50"
+              className="text-black  block md:hidden text-3xl z-50"
               onClick={toggle}
             >
               ☰
