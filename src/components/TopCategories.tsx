@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 
-const TopCategories: React.FC = () => {
+export default function TopCategories(){
   const categories = [
     { name: "Mini LCW Chair", price: 56.0, image: "/image 20.png" },
     { name: "Comfort Chair", price: 56.0, image: "/image 1168.png" },
@@ -58,4 +58,3 @@ const TopCategories: React.FC = () => {
   );
 };
 
-export default TopCategories;

@@ -1,15 +1,14 @@
-import React from 'react';
-import Image from 'next/image';
+import Image from "next/image";
 
-const ShopexOffers = () => {
+export default function ShopexOffers() {
   return (
     <>
       {/* Shopex Offers Section */}
       <div
         className="relative"
         style={{
-          padding: '40px 20px',
-          width: '100%',
+          padding: "40px 20px",
+          width: "100%",
         }}
       >
         {/* Section Heading */}
@@ -20,13 +19,13 @@ const ShopexOffers = () => {
         {/* Offers Grid */}
         <div
           className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 shadow-lg max-w-screen-xl mx-auto"
-          style={{ margin: '0 auto' }} // Ensures the content is centered
+          style={{ margin: "0 auto" }} // Ensures the content is centered
         >
           {/* Offer 1 */}
           <div
             className="bg-white w-full h-[320px] border rounded-md shadow-md p-4 text-center"
             style={{
-              transition: 'transform 0.3s ease',
+              transition: "transform 0.3s ease",
             }}
           >
             <div className="mt-12">
@@ -38,9 +37,12 @@ const ShopexOffers = () => {
                 className="w-16 h-16 mx-auto "
               />
             </div>
-            <div className='mt-6'>
+            <div className="mt-6">
               <h3 className="text-lg font-semibold mb-1">24/7 Support</h3>
-              <p className="text-sm text-gray-600 mb-2 leading-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa purus gravida. </p>
+              <p className="text-sm text-gray-600 mb-2 leading-6">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa
+                purus gravida.
+              </p>
             </div>
           </div>
 
@@ -48,7 +50,7 @@ const ShopexOffers = () => {
           <div
             className="bg-white w-full h-[320px] border rounded-md shadow-md p-4 text-center"
             style={{
-              transition: 'transform 0.3s ease',
+              transition: "transform 0.3s ease",
             }}
           >
             <div className="mt-12">
@@ -60,9 +62,12 @@ const ShopexOffers = () => {
                 className="w-16 h-16 mx-auto"
               />
             </div>
-            <div className='mt-6'>
+            <div className="mt-6">
               <h3 className="text-lg font-semibold mb-1">24/7 Support</h3>
-              <p className="text-sm text-gray-600 mb-2 leading-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa purus gravida.</p>
+              <p className="text-sm text-gray-600 mb-2 leading-6">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa
+                purus gravida.
+              </p>
             </div>
           </div>
 
@@ -70,7 +75,7 @@ const ShopexOffers = () => {
           <div
             className="bg-white w-full h-[320px] border rounded-md shadow-md p-4 text-center"
             style={{
-              transition: 'transform 0.3s ease',
+              transition: "transform 0.3s ease",
             }}
           >
             <div className="mt-12">
@@ -82,9 +87,12 @@ const ShopexOffers = () => {
                 className="w-16 h-16 mx-auto"
               />
             </div>
-            <div className='mt-6'>
+            <div className="mt-6">
               <h3 className="text-lg font-semibold mb-1">24/7 Support</h3>
-              <p className="text-sm text-gray-600 mb-2 leading-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa purus gravida.</p>
+              <p className="text-sm text-gray-600 mb-2 leading-6">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa
+                purus gravida.
+              </p>
             </div>
           </div>
 
@@ -92,7 +100,7 @@ const ShopexOffers = () => {
           <div
             className="bg-white w-full h-[320px] border rounded-md shadow-md p-4 text-center"
             style={{
-              transition: 'transform 0.3s ease',
+              transition: "transform 0.3s ease",
             }}
           >
             <div className="mt-12">
@@ -104,15 +112,16 @@ const ShopexOffers = () => {
                 className="w-16 h-16 mx-auto"
               />
             </div>
-            <div className='mt-6'>
+            <div className="mt-6">
               <h3 className="text-lg font-semibold mb-1">24/7 Support</h3>
-              <p className="text-sm text-gray-600 mb-2 leading-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa purus gravida.</p>
+              <p className="text-sm text-gray-600 mb-2 leading-6">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa
+                purus gravida.
+              </p>
             </div>
           </div>
         </div>
       </div>
     </>
   );
-};
-
-export default ShopexOffers;
+}

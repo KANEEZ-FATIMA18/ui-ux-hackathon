@@ -1,8 +1,13 @@
-
-'use client';
-import Link from 'next/link';
-import { FaEnvelope, FaPhoneAlt, FaUser, FaHeart, FaShoppingCart } from 'react-icons/fa'; // Import necessary icons
-import { useState } from 'react'; // To manage dropdown state
+"use client";
+import Link from "next/link";
+import {
+  FaEnvelope,
+  FaPhoneAlt,
+  FaUser,
+  FaHeart,
+  FaShoppingCart,
+} from "react-icons/fa";
+import { useState } from "react";
 
 const TopBar = () => {
   const [languageDropdown, setLanguageDropdown] = useState(false);
@@ -44,10 +49,18 @@ const TopBar = () => {
             <span className="text-xs">▼</span>
             {languageDropdown && (
               <div className="absolute top-8 bg-white text-black rounded shadow-md p-2 z-10">
-                <div className="hover:bg-gray-200 px-4 py-1 cursor-pointer">English</div>
-                <div className="hover:bg-gray-200 px-4 py-1 cursor-pointer">Spanish</div>
-                <div className="hover:bg-gray-200 px-4 py-1 cursor-pointer">French</div>
-                <div className="hover:bg-gray-200 px-4 py-1 cursor-pointer">German</div>
+                <div className="hover:bg-gray-200 px-4 py-1 cursor-pointer">
+                  English
+                </div>
+                <div className="hover:bg-gray-200 px-4 py-1 cursor-pointer">
+                  Spanish
+                </div>
+                <div className="hover:bg-gray-200 px-4 py-1 cursor-pointer">
+                  French
+                </div>
+                <div className="hover:bg-gray-200 px-4 py-1 cursor-pointer">
+                  German
+                </div>
               </div>
             )}
           </div>
@@ -62,9 +75,15 @@ const TopBar = () => {
             <span className="text-xs">▼</span>
             {currencyDropdown && (
               <div className="absolute top-8 bg-white text-black rounded shadow-md p-2 z-10">
-                <div className="hover:bg-gray-200 px-4 py-1 cursor-pointer">USD</div>
-                <div className="hover:bg-gray-200 px-4 py-1 cursor-pointer">EUR</div>
-                <div className="hover:bg-gray-200 px-4 py-1 cursor-pointer">GBP</div>
+                <div className="hover:bg-gray-200 px-4 py-1 cursor-pointer">
+                  USD
+                </div>
+                <div className="hover:bg-gray-200 px-4 py-1 cursor-pointer">
+                  EUR
+                </div>
+                <div className="hover:bg-gray-200 px-4 py-1 cursor-pointer">
+                  GBP
+                </div>
               </div>
             )}
           </div>

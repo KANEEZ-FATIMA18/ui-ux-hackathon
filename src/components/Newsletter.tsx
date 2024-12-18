@@ -1,11 +1,9 @@
-import React from "react";
-
-const NewsletterBanner: React.FC = () => {
+export default function NewsletterBanner() {
   return (
     <section
       className="relative bg-cover bg-center h-64 md:h-72 lg:h-[462px] flex items-center justify-center"
       style={{
-        backgroundImage: "url('/Rectangle 102.png')", // Replace with your image path
+        backgroundImage: "url('/Rectangle 102.png')"
       }}
     >
       <div className="absolute inset-0 bg-white bg-opacity-50"></div>
@@ -20,6 +18,4 @@ const NewsletterBanner: React.FC = () => {
       </div>
     </section>
   );
-};
-
-export default NewsletterBanner;
+}

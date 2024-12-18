@@ -1,9 +1,12 @@
-import Link from 'next/link';
-import Image from 'next/image';
-import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebookF, faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons';
-
+import Link from "next/link";
+import Image from "next/image";
+import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faFacebookF,
+  faInstagram,
+  faTwitter,
+} from "@fortawesome/free-brands-svg-icons";
 
 export default function Footer() {
   return (
@@ -11,19 +14,14 @@ export default function Footer() {
       <div className="max-w-[1920px]   mx-auto p-8 lg:p-16 grid  grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
         {/* Column 1: Logo and Sign-Up */}
         <div>
-          {/* Replace with your logo */}
+          {/* logo */}
           <div className="mb-4">
-            <Image
-                src={'/Hekto.png'} // Replace with your logo path
-              alt="logo"
-              width={110}
-              height={38}
-            />
+            <Image src={"/Hekto.png"} alt="logo" width={110} height={38} />
           </div>
           <div className="flex items-center  mb-4">
             <input
               type="email"
-              name='email'
+              name="email"
               placeholder="Enter your email"
               className="p-2 rounded bg-white text-[#8A8FB9] focus:ring-2 focus:ring-blue-500 outline-none flex-1"
             />
@@ -36,7 +34,7 @@ export default function Footer() {
           </div>
           <h4 className="text-sm font-bold mb-1">Contact Info</h4>
           <p className="text-sm">
-          17 Princess Road, London, Greater London NW1 8JR, UK
+            17 Princess Road, London, Greater London NW1 8JR, UK
           </p>
         </div>
 
@@ -46,27 +44,27 @@ export default function Footer() {
           <ul className="space-y-2">
             <li>
               <Link href="/makeup" className="hover:underline">
-              Laptops & Computers
+                Laptops & Computers
               </Link>
             </li>
             <li>
               <Link href="/skincare" className="hover:underline">
-              Cameras & Photography
+                Cameras & Photography
               </Link>
             </li>
             <li>
               <Link href="/haircare" className="hover:underline">
-              Smart Phones & Tablets
+                Smart Phones & Tablets
               </Link>
             </li>
             <li>
               <Link href="/fragrances" className="hover:underline">
-              Video Games & Consoles
+                Video Games & Consoles
               </Link>
             </li>
             <li>
               <Link href="/fragrances" className="hover:underline">
-              Waterproof Headphones
+                Waterproof Headphones
               </Link>
             </li>
           </ul>
@@ -78,27 +76,27 @@ export default function Footer() {
           <ul className="space-y-2">
             <li>
               <Link href="/contact" className="hover:underline">
-              My Account
+                My Account
               </Link>
             </li>
             <li>
               <Link href="/shipping-policy" className="hover:underline">
-              Discount
+                Discount
               </Link>
             </li>
             <li>
               <Link href="/return-policy" className="hover:underline">
-                Return 
+                Return
               </Link>
             </li>
             <li>
               <Link href="/faqs" className="hover:underline">
-              Orders History
+                Orders History
               </Link>
             </li>
             <li>
               <Link href="/faqs" className="hover:underline">
-              Order Tracking
+                Order Tracking
               </Link>
             </li>
           </ul>
@@ -139,18 +137,25 @@ export default function Footer() {
         {/* Right Side: Social Icons */}
         <div className="flex space-x-4 mt-4 md:mt-0">
           <Link href="https://facebook.com" aria-label="Facebook">
-          <FontAwesomeIcon icon={faInstagram} className='w-[19.42px] h-[19.42px] bg-blue-800 rounded text-white' />
+            <FontAwesomeIcon
+              icon={faInstagram}
+              className="w-[19.42px] h-[19.42px] bg-blue-800 rounded text-white"
+            />
           </Link>
           <Link href="https://instagram.com" aria-label="Instagram">
-           
-          <FontAwesomeIcon icon={faFacebookF} className='w-[19.42px] h-[19.42px] bg-blue-800 rounded text-white' />
+            <FontAwesomeIcon
+              icon={faFacebookF}
+              className="w-[19.42px] h-[19.42px] bg-blue-800 rounded text-white"
+            />
           </Link>
           <Link href="https://twitter.com" aria-label="Twitter">
-          <FontAwesomeIcon icon={faTwitter} className='w-[19.42px] h-[19.42px] bg-blue-800 rounded text-white' />
+            <FontAwesomeIcon
+              icon={faTwitter}
+              className="w-[19.42px] h-[19.42px] bg-blue-800 rounded text-white"
+            />
           </Link>
         </div>
       </div>
     </footer>
   );
 }
-
