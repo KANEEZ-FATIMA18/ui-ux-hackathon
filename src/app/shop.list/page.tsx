@@ -73,7 +73,7 @@ export default function MyAccount() {
           {/* 1st grid  */}
           <div className="w-[1141px] h-[254px] flex items-center mt-20 bg-[#FFFFFF]">
             {/* left image  */}
-            <div className="">
+            <div>
               <Image
                 src={"/Rectangle 32.png"}
                 alt=""
