@@ -93,3 +93,130 @@ const LatestProducts: React.FC = () => {
 };
 
 export default LatestProducts;
+
+
+
+// import Image from "next/image";
+
+// const LatestProducts = () => {
+//   const products = [
+//     {
+//       id: 1,
+//       name: "Comfort Handy Craft",
+//       price: "$42.00",
+//       oldPrice: "$65.00",
+//       image: "/images/chair1.png", // Replace with actual image paths
+//       tag: "Sale",
+//     },
+//     {
+//       id: 2,
+//       name: "Comfort Handy Craft",
+//       price: "$42.00",
+//       oldPrice: "$65.00",
+//       image: "/images/chair2.png",
+//       tag: "Sale",
+//     },
+//     {
+//       id: 3,
+//       name: "Comfort Handy Craft",
+//       price: "$42.00",
+//       oldPrice: "$65.00",
+//       image: "/images/chair3.png",
+//     },
+//     {
+//       id: 4,
+//       name: "Comfort Handy Craft",
+//       price: "$42.00",
+//       oldPrice: "$65.00",
+//       image: "/images/chair4.png",
+//     },
+//     {
+//       id: 5,
+//       name: "Comfort Handy Craft",
+//       price: "$42.00",
+//       oldPrice: "$65.00",
+//       image: "/images/chair5.png",
+//     },
+//     {
+//       id: 6,
+//       name: "Comfort Handy Craft",
+//       price: "$42.00",
+//       oldPrice: "$65.00",
+//       image: "/images/chair6.png",
+//     },
+//   ];
+
+//   return (
+//     <section className="py-10 bg-white">
+//       {/* Title */}
+//       <div className="text-center mb-8">
+//         <h2 className="text-2xl md:text-4xl font-bold text-indigo-900">
+//           Latest Products
+//         </h2>
+//         <div className="flex justify-center gap-6 mt-4">
+//           <button className="text-pink-500 font-medium">New Arrival</button>
+//           <button className="text-gray-500">Best Seller</button>
+//           <button className="text-gray-500">Featured</button>
+//           <button className="text-gray-500">Special Offer</button>
+//         </div>
+//       </div>
+
+//       {/* Product Grid */}
+//       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-4">
+//         {products.map((product) => (
+//           <div
+//             key={product.id}
+//             className="relative bg-gray-100 p-4 rounded-lg shadow-md group hover:shadow-lg transition"
+//           >
+//             {/* Product Tag */}
+//             {product.tag && (
+//               <div className="absolute top-2 left-2 bg-blue-500 text-white text-sm px-2 py-1 rounded-md">
+//                 {product.tag}
+//               </div>
+//             )}
+
+//             {/* Product Image */}
+//             <div className="relative h-48 flex justify-center items-center">
+//               <Image
+//                 src={product.image}
+//                 alt={product.name}
+//                 fill
+//                 className="object-contain rounded-md"
+//               />
+//             </div>
+
+//             {/* Hover Icons (Apply only to the first product) */}
+//             {product.id === 2 && ( // Change the ID as per your product
+//               <div className="absolute top-12 right-4 opacity-0 group-hover:opacity-100 transition">
+//                 <div className="flex flex-col gap-2">
+//                   <button className="bg-indigo-500 text-white p-2 rounded-full shadow">
+//                     🛒
+//                   </button>
+//                   <button className="bg-pink-500 text-white p-2 rounded-full shadow">
+//                     ♥
+//                   </button>
+//                   <button className="bg-gray-500 text-white p-2 rounded-full shadow">
+//                     🔍
+//                   </button>
+//                 </div>
+//               </div>
+//             )}
+
+//             {/* Product Details */}
+//             <div className="text-center mt-4">
+//               <h3 className="text-lg font-semibold text-gray-800">
+//                 {product.name}
+//               </h3>
+//               <p className="text-gray-600">
+//                 {product.price}{" "}
+//                 <span className="line-through text-red-500">{product.oldPrice}</span>
+//               </p>
+//             </div>
+//           </div>
+//         ))}
+//       </div>
+//     </section>
+//   );
+// };
+
+// export default LatestProducts;
