@@ -88,7 +88,6 @@ export default function MyAccount() {
               <h1 className="font-[JosefinSans] font-semibold text-[19.88px] text-[#111c85]">
                 Accumsan tincidunt
               </h1>
-
               {/* Color Dots */}
               <div className="flex space-x-2 mt-2">
                 <span className="w-4 h-4 rounded-full bg-[#f48c06]"></span>
