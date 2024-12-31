@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 export default function MyAccount() {
   return (
     <div className="bg-white min-h-screen">
