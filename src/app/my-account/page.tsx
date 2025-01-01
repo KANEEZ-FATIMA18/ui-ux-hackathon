@@ -61,7 +61,7 @@ export default function MyAccount() {
           </div>
   
           {/* Footer Logos */}
-          <div className=" justify-center  mt-12">
+          <div className=" justify-center  mb-28 mt-20">
             <Image 
             src={'/image 1174.png'}
             alt='logo'
