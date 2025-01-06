@@ -139,19 +139,19 @@ export default function Footer() {
           <Link href="https://facebook.com" aria-label="Facebook">
             <FontAwesomeIcon
               icon={faInstagram}
-              className="w-[19.42px] h-[19.42px] bg-blue-800 rounded text-white"
+              className="w-[19.42px] h-[19.42px] bg-blue-800 rounded-full p-1 text-white"
             />
           </Link>
           <Link href="https://instagram.com" aria-label="Instagram">
             <FontAwesomeIcon
               icon={faFacebookF}
-              className="w-[19.42px] h-[19.42px] bg-blue-800 rounded text-white"
+              className="w-[19.42px] h-[19.42px] bg-blue-800 rounded-full p-1 text-white"
             />
           </Link>
           <Link href="https://twitter.com" aria-label="Twitter">
             <FontAwesomeIcon
               icon={faTwitter}
-              className="w-[19.42px] h-[19.42px] bg-blue-800 rounded text-white"
+              className="w-[19.42px] h-[19.42px] bg-blue-800 rounded-full p-1 text-white"
             />
           </Link>
         </div>

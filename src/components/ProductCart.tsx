@@ -57,7 +57,7 @@ export default function ProductCard() {
     <div className="bg-[#F1F0FF]">
       <div className="flex flex-col md:flex-row items-center md:items-start justify-around bg-[#F1F0FF] p-6 max-w-[1050px] mx-auto">
         {/* Image Section */}
-        <div className="relative max-w-full h-auto md:max-w-[509px] md:h-[550px] flex-shrink-0">
+        <div className="relative max-w-full h-auto md:max-w-[509px] md:h-[550px] flex-shrink-0 hover:scale-105 transition-transform duration-300 cursor-pointer">
           <Image
             src="/Group 153.png"
             alt="Stylish Chair"

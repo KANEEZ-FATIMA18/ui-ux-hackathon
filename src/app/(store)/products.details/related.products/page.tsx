@@ -33,15 +33,15 @@ const RelatedProducts = () => {
   ];
 
   return (
-    <div className="container mx-auto px-16 py-32">
+    <div className=" mx-auto px-16 py-32 ">
       <h2 className="text-2xl font-bold text-gray-800 mb-6">
         Related Products
       </h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 justify-center">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 justify-center ">
         {products.map((product) => (
           <div
             key={product.id}
-            className="w-[270px] h-[340px]  hover:shadow-lg"
+            className="w-[270px] h-[340px] hover:scale-105 transition-transform duration-300 cursor-pointer "
           >
             <Image
               src={product.image}

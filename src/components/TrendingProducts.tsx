@@ -43,7 +43,7 @@ const TrendingProducts = () => {
           {products.map((product,index) => (
             <div
               key={index}
-              className="bg-white shadow-lg w-[270px] h-[350px] p-4 text-center border border-gray-200 relative"
+              className="bg-white hover:scale-105 transition-transform duration-300 cursor-pointer shadow-lg w-[270px] h-[350px] p-4 text-center border border-gray-200 relative"
             >
               {/* Product Image */}
               <div className="w-[235px] h-[244px] bg-gray-100 mb-4 flex items-center justify-center overflow-hidden">

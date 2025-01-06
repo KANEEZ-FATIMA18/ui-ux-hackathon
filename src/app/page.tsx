@@ -4,7 +4,7 @@ import FeaturedProducts from '@/components/Featured';
 import HeroSection from '@/components/Hero';
 import LatestProducts from '@/components/LatestProducts';
 import NewsletterBanner from '@/components/Newsletter';
-import ProductCard from '@/components/ProductCard';
+import ProductCard from '@/components/ProductCart';
 import ShopexOffers from '@/components/ShopxOffers';
 import TopCategories from '@/components/TopCategories';
 import TrendingProducts from '@/components/TrendingProducts';

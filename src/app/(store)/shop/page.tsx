@@ -72,7 +72,7 @@ export default function Home() {
         {/* grids */}
         <div className="grid grid-cols-4 mt-40 gap-y-20 justify-center items-center">
           {/* 1 grid  */}
-          <div className="w-[270px] h-[363px] bg-white flex flex-col items-center">
+          <div className="w-[270px] h-[363px] bg-white flex flex-col items-center cursor-pointer  transform scale-100 hover:scale-95 transition duration-300">
             {/* Image */}
             <div className="w-[270px] bg-[#F6F7FB] h-[280px] flex justify-center items-center">
               <Image
@@ -101,7 +101,7 @@ export default function Home() {
             </div>
           </div>
           {/* 2nd grid  */}
-          <div className="w-[270px] h-[363px] bg-white flex flex-col items-center">
+          <div className="w-[270px] h-[363px] bg-white flex flex-col items-center cursor-pointer  transform scale-100 hover:scale-95 transition duration-300">
             {/* Image */}
             <div className="w-[270px] bg-[#EBF4F3] h-[280px] flex justify-center items-center">
               <Image
@@ -130,7 +130,7 @@ export default function Home() {
             </div>
           </div>
           {/* 3rd grid  */}
-          <div className="w-[270px] h-[363px] bg-white flex flex-col items-center">
+          <div className="w-[270px] h-[363px] bg-white flex flex-col items-center cursor-pointer  transform scale-100 hover:scale-95 transition duration-300">
             {/* Image */}
             <div className="w-[270px] bg-[#f6f7fb] h-[280px] flex justify-center items-center">
               <Image
@@ -159,7 +159,7 @@ export default function Home() {
             </div>
           </div>
           {/* 3rd grid */}
-          <div className="w-[270px] h-[363px] bg-white flex flex-col items-center">
+          <div className="w-[270px] h-[363px] bg-white flex flex-col items-center cursor-pointer  transform scale-100 hover:scale-95 transition duration-300">
             {/* Image */}
             <div className="w-[270px] bg-[#F6F7FB] h-[280px] flex justify-center items-center">
               <Image
@@ -188,7 +188,7 @@ export default function Home() {
             </div>
           </div>
           {/* 4th grid  */}
-          <div className="w-[270px] h-[363px] bg-white flex flex-col items-center">
+          <div className="w-[270px] h-[363px] bg-white flex flex-col items-center cursor-pointer  transform scale-100 hover:scale-95 transition duration-300">
             {/* Image */}
             <div className="w-[270px] bg-[#F6F7FB] h-[280px] flex justify-center items-center">
               <Image
@@ -217,7 +217,7 @@ export default function Home() {
             </div>
           </div>
           {/* 5th grid  */}
-          <div className="w-[270px] h-[363px] bg-white flex flex-col items-center">
+          <div className="w-[270px] h-[363px] bg-white flex flex-col items-center cursor-pointer  transform scale-100 hover:scale-95 transition duration-300">
             {/* Image */}
             <div className="w-[270px] bg-[#F6F7FB] h-[280px] flex justify-center items-center">
               <Image
@@ -246,7 +246,7 @@ export default function Home() {
             </div>
           </div>
           {/* 6th grid  */}
-          <div className="w-[270px] h-[363px] bg-white flex flex-col items-center">
+          <div className="w-[270px] h-[363px] bg-white flex flex-col items-center cursor-pointer  transform scale-100 hover:scale-95 transition duration-300">
             {/* Image */}
             <div className="w-[270px] bg-[#F6F7FB] h-[280px] flex justify-center items-center">
               <Image
@@ -275,7 +275,7 @@ export default function Home() {
             </div>
           </div>
           {/* 7th grid  */}
-          <div className="w-[270px] h-[363px] bg-white flex flex-col items-center">
+          <div className="w-[270px] h-[363px] bg-white flex flex-col items-center cursor-pointer  transform scale-100 hover:scale-95 transition duration-300">
             {/* Image */}
             <div className="w-[270px] bg-[#F6F7FB] h-[280px] flex justify-center items-center">
               <Image
@@ -304,7 +304,7 @@ export default function Home() {
             </div>
           </div>
           {/* 8th grid  */}
-          <div className="w-[270px] h-[363px] bg-white flex flex-col items-center">
+          <div className="w-[270px] h-[363px] bg-white flex flex-col items-center cursor-pointer  transform scale-100 hover:scale-95 transition duration-300">
             {/* Image */}
             <div className="w-[270px] bg-[#F6F7FB] h-[280px] flex justify-center items-center">
               <Image
@@ -333,7 +333,7 @@ export default function Home() {
             </div>
           </div>
           {/* 9th grid  */}
-          <div className="w-[270px] h-[363px] bg-white flex flex-col items-center">
+          <div className="w-[270px] h-[363px] bg-white flex flex-col items-center cursor-pointer  transform scale-100 hover:scale-95 transition duration-300">
             {/* Image */}
             <div className="w-[270px] bg-[#F6F7FB] h-[280px] flex justify-center items-center">
               <Image
@@ -362,7 +362,7 @@ export default function Home() {
             </div>
           </div>
           {/* 10th grid  */}
-          <div className="w-[270px] h-[363px] bg-white flex flex-col items-center">
+          <div className="w-[270px] h-[363px] bg-white flex flex-col items-center cursor-pointer  transform scale-100 hover:scale-95 transition duration-300">
             {/* Image */}
             <div className="w-[270px] bg-[#F6F7FB] h-[280px] flex justify-center items-center">
               <Image
@@ -391,7 +391,7 @@ export default function Home() {
             </div>
           </div>
           {/* 11th grid  */}
-          <div className="w-[270px] h-[363px] bg-white flex flex-col items-center">
+          <div className="w-[270px] h-[363px] bg-white flex flex-col items-center cursor-pointer transform scale-100 hover:scale-95 transition duration-300">
             {/* Image */}
             <div className="w-[270px] bg-[#F6F7FB] h-[280px] flex justify-center items-center">
               <Image
