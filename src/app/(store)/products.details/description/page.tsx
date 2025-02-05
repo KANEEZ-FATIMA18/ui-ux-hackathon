@@ -24,14 +24,14 @@ const DetailsSection = () => {
   };
 
   return (
-    <div className="bg-[#F9F8FE] mx-auto px-44 mt-28 w-full py-8">
+    <div className="bg-[#F9F8FE] mx-auto px-6 md:px-12 lg:px-44 mt-16 md:mt-28 w-full py-8">
       {/* Tabs */}
-      <div className="flex space-x-8 border-b border-gray-200 pb-4">
+      <div className="flex flex-wrap justify-center md:justify-start space-x-4 md:space-x-8 border-b border-gray-200 pb-4">
         {tabs.map((tab) => (
           <button
             key={tab}
             onClick={() => setActiveTab(tab)}
-            className={`text-xl font-medium ${
+            className={`text-base md:text-lg lg:text-xl font-medium ${
               activeTab === tab
                 ? "text-blue-600 border-b-2 border-blue-600"
                 : "text-[#151875]"
@@ -45,24 +45,28 @@ const DetailsSection = () => {
       {/* Content */}
       {activeTab === "Description" && (
         <div className="mt-6 text-gray-700">
-          <h3 className="text-xl font-bold text-[#151875]">
+          <h3 className="text-lg md:text-xl font-bold text-[#151875]">
             {content.Description.title}
           </h3>
-          <p className="mt-4 leading-relaxed">{content.Description.body}</p>
+          <p className="mt-4 leading-relaxed text-sm md:text-base">
+            {content.Description.body}
+          </p>
 
-          <h4 className="text-lg font-bold text-[#151875] mt-8">More details</h4>
+          <h4 className="text-md md:text-lg font-bold text-[#151875] mt-8">
+            More details
+          </h4>
           <ul className="mt-4 space-y-4">
             {content.Description.details.map((detail, index) => (
               <li
                 key={index}
-                className="flex items-center space-x-2 text-gray-600"
+                className="flex items-start space-x-2 text-gray-600"
               >
                 <FaArrowRight
-                  className={`${
+                  className={`mt-1 ${
                     index === 1 ? "text-blue-600" : "text-gray-600"
                   }`}
                 />
-                <span>{detail}</span>
+                <span className="text-sm md:text-base">{detail}</span>
               </li>
             ))}
           </ul>

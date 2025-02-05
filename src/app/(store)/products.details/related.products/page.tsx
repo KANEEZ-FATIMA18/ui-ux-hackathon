@@ -33,31 +33,37 @@ const RelatedProducts = () => {
   ];
 
   return (
-    <div className=" mx-auto px-16 py-32 ">
-      <h2 className="text-2xl font-bold text-gray-800 mb-6">
+    <div className="mx-auto px-4 md:px-8 lg:px-16 py-16 md:py-24">
+      <h2 className="text-xl md:text-2xl lg:text-4xl font-bold text-gray-800 mb-14 lg:text-left text-center">
         Related Products
       </h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 justify-center ">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
         {products.map((product) => (
           <div
             key={product.id}
-            className="w-[270px] h-[340px] hover:scale-105 transition-transform duration-300 cursor-pointer "
+            className="hover:scale-105 transition-transform duration-300 cursor-pointer border rounded-lg shadow-md"
           >
+            {/* Product Image */}
             <Image
               src={product.image}
               alt={product.title}
               width={270}
               height={340}
-              className="w-[270px] h-[340px] object-cover rounded-t-lg"
+              className="w-full h-auto object-cover rounded-t-lg"
             />
-             <div className="p-4">
+            {/* Product Details */}
+            <div className="p-4">
               <div className="flex items-center justify-between">
-                <h3 className="text-lg font-semibold text-gray-800">
+                <h3 className="text-sm md:text-base lg:text-lg font-semibold text-gray-800">
                   {product.title}
                 </h3>
-                <span className="text-yellow-500 ml-2">{product.rating}</span>
+                <span className="text-yellow-500 text-xs md:text-sm ml-2">
+                  {product.rating}
+                </span>
               </div>
-              <p className="text-gray-600 mt-2">{product.price}</p>
+              <p className="text-gray-600 mt-2 text-sm md:text-base">
+                {product.price}
+              </p>
             </div>
           </div>
         ))}

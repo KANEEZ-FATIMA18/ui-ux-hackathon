@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function Home() {
+export default function Shop() {
   return (
     <div className=" min-h-screen bg-white">
       {/* Header */}
@@ -76,7 +76,7 @@ export default function Home() {
             {/* Image */}
             <div className="w-[270px] bg-[#F6F7FB] h-[280px] flex justify-center items-center">
               <Image
-                src={"/image 9.png"}
+                 src={"/image 9.png"}
                 alt="Product Image"
                 width={201}
                 height={201}
@@ -429,3 +429,7 @@ export default function Home() {
     </div>
   );
 }
+
+
+         
+       
